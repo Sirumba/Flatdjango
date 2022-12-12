@@ -1,4 +1,4 @@
- FlatDjango code-challenge
+# FlatDjango code-challenge
 
 # Description
 This application allows you to chose a movie you would like to watch, and buy the ticket.
