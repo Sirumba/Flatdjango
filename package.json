@@ -1,0 +1,24 @@
+{
+  "name": "flatdjango",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sirumba/Flatdjango.git"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Simon Sirumba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sirumba/Flatdjango/issues"
+  },
+  "homepage": "https://github.com/Sirumba/Flatdjango#readme"
+}

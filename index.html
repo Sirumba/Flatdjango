@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Code Challenge</title>
+   
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./bootstrap.css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    
+    
+    <nav class="navbar bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./asset/icon.jpeg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            FLATDJANGO
+          </a>
+        </div>
+      </nav>
+
+    <div class="card-group">
+        <div class="card">
+          <div class="card-body text-primary bg-dark">
+            <div class="list-group">
+                <ul class="list-group list-group-flush" id="films">
+                    
+                  <a href="#" class="list-group-item list-group-item-action active text-center" aria-current="true">
+                      THESE ARE THE AVAILABLE FILMS!!
+                    </a>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/placeholderImage.png" id="poster" class="card-img-top img-fluid w-lg-100 w-md-100 w-100 text-center" alt="...">
+          
+        </div>
+        <div class="card">
+            <div class="card-body bg-dark">
+                <h5  id="title" class="btn btn-info">[MOVIE TITLE]</h5>
+                <h5 id="runtime" class="btn btn-info">[RUNTIME] minutes</h5>
+                <div class="content">
+                  <div class="description">
+                    <div id="film-info">[INSERT MOVIE DESCRIPTION HERE]</div>
+                    <span id="showtime" class="ui label">[SHOWTIME]</span>
+                    <span id="ticket-num">[X]</span> remaining tickets
+                  </div>
+                </div>
+                <div class="extra content">
+                  <button id="buy-ticket" class="btn btn-info">
+                    Buy Ticket
+                  </button>
+                </div>
+            </div>
+        </div>
+      </div>
+  
+    <script src="./index.js"></script>
+    <script src="./bootstrap.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+
+  #runtime {
+    background-color: #c4d112;
+    color: #3e8fde;
+    padding: 0px 0px 5px 5px;
+  }
+  
+  .content {
+    color: #b1ceeb;
+  }
+
+
+  .film {
+    font-size: 18px;
+    text-transform: uppercase;
+
+  }
+  
+
+ 
+  #film-info {
+    padding-bottom: 100px;
+  }
